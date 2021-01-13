@@ -1,4 +1,4 @@
-module github.com/ztino/jd_seckill
+module github.com/asalis/jd_seckill
 
 go 1.15
 

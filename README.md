@@ -9,15 +9,15 @@ helloworld
 
 * 本项目内所有资源文件，禁止任何公众号、自媒体进行任何形式的转载、发布。
 
-* `ztino` 对任何脚本问题概不负责，包括但不限于由任何脚本错误导致的任何损失或损害.
+* `asalis` 对任何脚本问题概不负责，包括但不限于由任何脚本错误导致的任何损失或损害.
 
-* 间接使用脚本的任何用户，包括但不限于建立VPS或在某些行为违反国家/地区法律或相关法规的情况下进行传播, `ztino` 对于由此引起的任何隐私泄漏或其他后果概不负责。
+* 间接使用脚本的任何用户，包括但不限于建立VPS或在某些行为违反国家/地区法律或相关法规的情况下进行传播, `asalis` 对于由此引起的任何隐私泄漏或其他后果概不负责。
 
 * 请勿将`helloworld`项目的任何内容用于商业或非法目的，否则后果自负。
 
 * 如果任何单位或个人认为该项目的脚本可能涉嫌侵犯其权利，则应及时通知并提供身份证明，所有权证明，我们将在收到认证文件后删除相关脚本。
 
-* 以任何方式查看此项目的人或直接或间接使用`helloworld`项目的任何脚本的使用者都应仔细阅读此声明。`ztino` 保留随时更改或补充此免责声明的权利。一旦使用并复制了任何相关脚本或`helloworld`项目，则视为您已接受此免责声明。
+* 以任何方式查看此项目的人或直接或间接使用`helloworld`项目的任何脚本的使用者都应仔细阅读此声明。`asalis` 保留随时更改或补充此免责声明的权利。一旦使用并复制了任何相关脚本或`helloworld`项目，则视为您已接受此免责声明。
   
 * 您必须在下载后的24小时内从计算机或手机中完全删除以上内容。  
   
@@ -39,7 +39,7 @@ helloworld
 方式一(推荐):
 
 ```shell
-git clone https://github.com/ztino/jd_seckill.git
+git clone https://github.com/asalis/jd_seckill.git
 cd jd_seckill
 go get
 ```
@@ -47,7 +47,7 @@ go get
 方式二:
 
 ```shell
-go get github.com/ztino/jd_seckill
+go get github.com/asalis/jd_seckill
 ```
 
 ## 待办
@@ -55,7 +55,7 @@ go get github.com/ztino/jd_seckill
 
 ## 使用
 
-> [下载](https://github.com/ztino/jd_seckill/releases) 对应平台的可执行文件，解压，终端进入该目录。
+> [下载](https://github.com/asalis/jd_seckill/releases) 对应平台的可执行文件，解压，终端进入该目录。
 
 ### 登录
 执行以下命令按照提示操作:
@@ -111,7 +111,7 @@ jd_seckill version
 
 (1)`eid`和`fp`找个普通商品随便下单,然后抓包就能看到,这两个值可以填固定的
 > 随便找一个商品下单，然后进入结算页面，打开浏览器的调试窗口，切换到控制台Tab页，在控制台中输入变量`_JdTdudfp`，即可从输出的Json中获取`eid`和`fp`。  
-> 不会的话参考issue https://github.com/ztino/jd_seckill/issues/2
+> 不会的话参考issue https://github.com/asalis/jd_seckill/issues/2
 
 (2)`sku_id`,`default_user_agent`
 > `sku_id`已经按照茅台的填好。

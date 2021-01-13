@@ -2,7 +2,7 @@ package log
 
 import (
 	"github.com/gookit/color"
-	"github.com/ztino/jd_seckill/common"
+	"github.com/asalis/jd_seckill/common"
 	"io"
 	"log"
 	"os"

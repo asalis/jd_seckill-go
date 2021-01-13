@@ -3,7 +3,7 @@ package service
 import (
 	"github.com/blinkbean/dingtalk"
 	"github.com/unknwon/goconfig"
-	"github.com/ztino/jd_seckill/log"
+	"github.com/asalis/jd_seckill/log"
 )
 
 type Dingtalk struct {

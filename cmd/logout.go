@@ -2,8 +2,8 @@ package cmd
 
 import (
 	"github.com/spf13/cobra"
-	"github.com/ztino/jd_seckill/common"
-	"github.com/ztino/jd_seckill/log"
+	"github.com/asalis/jd_seckill/common"
+	"github.com/asalis/jd_seckill/log"
 	"os"
 )
 

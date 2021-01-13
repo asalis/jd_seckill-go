@@ -2,7 +2,7 @@ FROM golang:1.15-alpine as builder
 RUN set -ex; \
   go env -w GO111MODULE=on; \
   go env -w GOPROXY=https://goproxy.io,direct; \
-  go get github.com/ztino/jd_seckill
+  go get github.com/asalis/jd_seckill
 
 FROM alpine:3.12
 
